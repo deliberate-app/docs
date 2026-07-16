@@ -51,10 +51,11 @@ html {
   background: var(--av-canvas);
 }
 
-/* The wordmark, as the app's topbar renders it: the brand's weight step. */
+/* The wordmark, as the app's topbar renders it: the brand's weight step, pinned to
+   the display cut (opsz 144) like the kit's outlined masters. */
 .navbar-wordmark {
   font-family: var(--ifm-heading-font-family);
-  font-optical-sizing: auto;
+  font-variation-settings: 'opsz' 144;
   font-weight: 490;
   font-size: 1.25rem;
   letter-spacing: -0.01em;
