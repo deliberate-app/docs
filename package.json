@@ -11,7 +11,7 @@
     "clear": "docusaurus clear",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "github-deploy": "GIT_USER=ArborVote USE_SSH=true docusaurus deploy"
+    "github-deploy": "GIT_USER=deliberate-app USE_SSH=true docusaurus deploy"
   },
   "dependencies": {
     "@docusaurus/core": "^3.10.1",
