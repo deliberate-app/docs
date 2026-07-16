@@ -30,4 +30,4 @@ This command generates static content into the `build` directory and can be serv
 $ just deploy
 ```
 
-This command builds the website and pushes it to the `gh-pages` branch for GitHub Pages hosting (deploying as `ArborVote` via SSH).
+This command builds the website and pushes it to the `gh-pages` branch for GitHub Pages hosting (deploying as `deliberate` via SSH).

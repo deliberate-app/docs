@@ -24,4 +24,4 @@ Once the debate is finished, shareholders redeem their shares at the market's **
 
 ## Why markets?
 
-A plain vote count measures how many people clicked, not how much they mean it or how carefully they judged. A market makes every rating a priced commitment: overrated arguments become expensive to inflate further and **profitable to bet against** — which is also ArborVote's moderation. Spam and manipulation are not adjudicated by a court; they are corrected for profit by other participants. There are deliberately no disputes, curators, or arbitrators.
+A plain vote count measures how many people clicked, not how much they mean it or how carefully they judged. A market makes every rating a priced commitment: overrated arguments become expensive to inflate further and **profitable to bet against** — which is also deliberate's moderation. Spam and manipulation are not adjudicated by a court; they are corrected for profit by other participants. There are deliberately no disputes, curators, or arbitrators.

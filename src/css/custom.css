@@ -51,12 +51,24 @@ html {
   background: var(--av-canvas);
 }
 
-/* The wordmark, as the app's topbar renders it. */
-.navbar__title {
+/* The wordmark, as the app's topbar renders it: the brand's weight step. */
+.navbar-wordmark {
   font-family: var(--ifm-heading-font-family);
-  font-weight: 700;
+  font-optical-sizing: auto;
+  font-weight: 490;
   font-size: 1.25rem;
   letter-spacing: -0.01em;
+  color: var(--av-ink);
+  text-decoration: none;
+}
+
+.navbar-wordmark:hover {
+  color: var(--av-ink);
+  text-decoration: none;
+}
+
+.navbar-wordmark .nw-rate {
+  font-weight: 740;
 }
 
 h1,

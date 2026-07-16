@@ -4,13 +4,13 @@ import rehypeKatex from 'rehype-katex';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ArborVote',
+  title: 'deliberate',
   tagline: 'Structured debates on Ethereum — argument trees, rated by markets, tallied on-chain.',
-  favicon: 'img/ArborVoteIcon.ico',
+  favicon: 'img/deliberateIcon.ico',
 
-  url: 'https://arborvote.github.io',
+  url: 'https://deliberate-app.github.io',
   baseUrl: '/docs/',
-  organizationName: 'ArborVote',
+  organizationName: 'deliberate-app',
   projectName: 'docs',
   deploymentBranch: 'gh-pages',
 
@@ -35,7 +35,7 @@ const config = {
     },
     {
       // The frontend's exact font trio (see frontend/index.html).
-      href: 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600&display=swap',
+      href: 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300..900&family=IBM+Plex+Mono:wght@400;500&family=Public+Sans:wght@400;500;600&display=swap',
       type: 'text/css',
     },
   ],
@@ -88,12 +88,16 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        title: 'ArborVote',
         logo: {
-          alt: 'ArborVoteIcon',
-          src: 'img/ArborVoteIcon.svg',
+          alt: 'deliberate',
+          src: 'img/deliberateIcon.svg',
         },
         items: [
+          {
+            type: 'html',
+            position: 'left',
+            value: '<a class="navbar-wordmark" href="/docs/">delibe<span class="nw-rate">rate</span></a>',
+          },
           {
             to: 'docs/',
             activeBasePath: 'docs',
@@ -102,7 +106,7 @@ const config = {
           },
           {to: 'blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/ArborVote/',
+            href: 'https://github.com/deliberate-app/',
             label: 'GitHub',
             position: 'right',
           },
@@ -137,7 +141,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/ArborVote',
+                href: 'https://twitter.com/deliberate',
               },
             ],
           },
@@ -150,7 +154,7 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/ArborVote/',
+                href: 'https://github.com/deliberate-app/',
               },
             ],
           },

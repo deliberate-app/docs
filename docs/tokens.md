@@ -4,7 +4,7 @@ title: Vote Tokens
 sidebar_label: Vote Tokens
 ---
 
-Voting on ArborVote is **not coin voting**. Every participant who joins a debate receives the same amount of **vote tokens**, which
+Voting on deliberate is **not coin voting**. Every participant who joins a debate receives the same amount of **vote tokens**, which
 
 - exist only within that debate,
 - are **not transferable** between participants or across debates, and

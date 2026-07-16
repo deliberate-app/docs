@@ -66,10 +66,12 @@ function Home() {
   return (
     <Layout
       title={`Welcome to ${siteConfig.title}`}
-      description="ArborVote structures debates as argument trees on Ethereum: rating markets weigh every argument, and the tally confirms or objects the thesis.">
+      description="deliberate structures debates as argument trees on Ethereum: rating markets weigh every argument, and the tally confirms or objects the thesis.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
+          <h1 className="hero__title" style={{fontWeight: 490}}>
+            delibe<span style={{fontWeight: 740}}>rate</span>
+          </h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
             <Link
