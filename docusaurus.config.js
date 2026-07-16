@@ -81,6 +81,8 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      // The brand's link-preview card.
+      image: 'img/og-image.png',
       // The app is light-only paper; the docs match instead of shipping a second, dark identity.
       colorMode: {
         defaultMode: 'light',
