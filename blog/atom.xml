@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://deliberate-app.github.io/docs/blog</id>
+    <title>deliberate Blog</title>
+    <updated>2020-07-01T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://deliberate-app.github.io/docs/blog"/>
+    <subtitle>deliberate Blog</subtitle>
+    <icon>https://deliberate-app.github.io/docs/img/deliberateIcon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://deliberate-app.github.io/docs/blog/welcome</id>
+        <link href="https://deliberate-app.github.io/docs/blog/welcome"/>
+        <updated>2020-07-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Welcome to the ArborVote project!]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the ArborVote project!</p>
+<p>The project started at the ETHLondon Hackathon in March 2020.
+The idea was to build decentralized debate platform for
+rational decision-making  based on quadratic voting in a tree of pro and con arguments.
+This form of democratic decision making is known under the term
+<a href="https://en.wikipedia.org/wiki/Deliberative_democracy" target="_blank" rel="noopener noreferrer" class="">deliberative democracy</a>.</p>
+<p>With the global challenges ahead, this is something the world needs right now. 🌍<br>
+So let's be constructive and build a decentralized and democratic future together!</p>]]></content>
+        <author>
+            <name>Michael</name>
+            <uri>https://github.com/heueristik</uri>
+        </author>
+        <category label="Democracy" term="Democracy"/>
+        <category label="Rationalism" term="Rationalism"/>
+    </entry>
+</feed>

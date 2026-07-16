@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkarbor_vote_docs=globalThis.webpackChunkarbor_vote_docs||[]).push([[472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/docs/blog/welcome","unlisted":false,"date":"2020-07-01T00:00:00.000Z"}]}')}}]);

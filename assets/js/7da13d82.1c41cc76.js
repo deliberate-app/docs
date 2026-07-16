@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkarbor_vote_docs=globalThis.webpackChunkarbor_vote_docs||[]).push([[443],{8101(o){o.exports=JSON.parse('{"metadata":{"permalink":"/docs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

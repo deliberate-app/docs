@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkarbor_vote_docs=globalThis.webpackChunkarbor_vote_docs||[]).push([[978],{3937(e){e.exports=JSON.parse('{"authors":[{"name":"Michael","title":"Founder","url":"https://github.com/heueristik","imageURL":"https://avatars1.githubusercontent.com/u/20623991?s=400&v=4","key":"michael","page":null,"count":1}]}')}}]);

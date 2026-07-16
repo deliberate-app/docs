@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkarbor_vote_docs=globalThis.webpackChunkarbor_vote_docs||[]).push([[9],{7888(a){a.exports=JSON.parse('{"tags":[{"label":"Democracy","permalink":"/docs/blog/tags/democracy","count":1},{"label":"Rationalism","permalink":"/docs/blog/tags/rationalism","count":1}]}')}}]);
