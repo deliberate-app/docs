@@ -12,8 +12,8 @@
         <id>https://deliberate-app.github.io/docs/blog/welcome</id>
         <link href="https://deliberate-app.github.io/docs/blog/welcome"/>
         <updated>2020-07-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to the ArborVote project!]]></summary>
-        <content type="html"><![CDATA[<p>Welcome to the ArborVote project!</p>
+        <summary type="html"><![CDATA[Welcome to the deliberate project!]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to the deliberate project!</p>
 <p>The project started at the ETHLondon Hackathon in March 2020.
 The idea was to build decentralized debate platform for
 rational decision-making  based on quadratic voting in a tree of pro and con arguments.
