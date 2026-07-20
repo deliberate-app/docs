@@ -51,12 +51,12 @@ html {
   background: var(--av-canvas);
 }
 
-/* The wordmark, as the app's topbar renders it: the brand's weight step, pinned to
-   the display cut (opsz 144) like the kit's outlined masters. */
+/* The wordmark, as the app's topbar renders it: the brand's weight step, both cuts
+   pinned - delibe toward the display end (opsz 75), rate near the text cut (opsz 25). */
 .navbar-wordmark {
   font-family: var(--ifm-heading-font-family);
-  font-variation-settings: 'opsz' 144;
-  font-weight: 490;
+  font-variation-settings: 'opsz' 75;
+  font-weight: 500;
   font-size: 1.25rem;
   letter-spacing: -0.01em;
   color: var(--av-ink);
@@ -69,7 +69,8 @@ html {
 }
 
 .navbar-wordmark .nw-rate {
-  font-weight: 740;
+  font-weight: 750;
+  font-variation-settings: 'opsz' 25;
 }
 
 h1,

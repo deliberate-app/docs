@@ -69,8 +69,8 @@ function Home() {
       description="deliberate structures debates as argument trees on Ethereum: rating markets weigh every argument, and the tally confirms or objects the thesis.">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
-          <h1 className="hero__title" style={{fontWeight: 490, fontVariationSettings: "'opsz' 144"}}>
-            delibe<span style={{fontWeight: 740}}>rate</span>
+          <h1 className="hero__title" style={{fontWeight: 500, fontVariationSettings: "'opsz' 75"}}>
+            delibe<span style={{fontWeight: 750, fontVariationSettings: "'opsz' 25"}}>rate</span>
           </h1>
           <p className="hero__subtitle">{siteConfig.tagline}</p>
           <div className={styles.buttons}>
