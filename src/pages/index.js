@@ -20,7 +20,7 @@ const features = [
     ),
   },
   {
-    title: <>Argument Markets</>,
+    title: <>Rating Markets</>,
     imageUrl: 'img/feature-market.svg',
     description: (
       <>
@@ -32,7 +32,7 @@ const features = [
     ),
   },
   {
-    title: <>Decentralized Decision-Making</>,
+    title: <>Deliberative Decision-Making</>,
     imageUrl: 'img/feature-tally.svg',
     description: (
       <>

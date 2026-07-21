@@ -5,7 +5,7 @@ import rehypeKatex from 'rehype-katex';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'deliberate',
-  tagline: 'Structured debates on Ethereum — argument trees, rated by markets, tallied on-chain.',
+  tagline: 'Public debates — argument trees, rated by markets, tallied on-chain.',
   favicon: 'img/deliberateIcon.ico',
 
   url: 'https://deliberate-app.github.io',
