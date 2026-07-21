@@ -12,12 +12,12 @@
        Underrated corrects up in green, overrated down in rust. -->
   <path d="M48 60.75 H64.75 A1.75 1.75 0 0 1 64.75 64.25 H48 Z" fill="#31703f" />
   <path d="M48 53 V72" stroke="#22301f" stroke-width="1.5" />
-  <g stroke="#31703f" stroke-width="1.75">
-    <path d="M74 53 V39.5" />
-    <path d="M71 44 L74 39.5 L77 44" />
+  <g stroke="#31703f">
+    <path d="M74 54 V46" stroke-width="1.75" />
+    <path d="M74 38.5 L78 46 L70 46 Z" fill="#31703f" stroke-width="1.5" />
   </g>
-  <g stroke="#a5432c" stroke-width="1.75">
-    <path d="M22 71 V85.5" />
-    <path d="M19 81 L22 85.5 L25 81" />
+  <g stroke="#a5432c">
+    <path d="M22 70 V78" stroke-width="1.75" />
+    <path d="M22 85.5 L18 78 L26 78 Z" fill="#a5432c" stroke-width="1.5" />
   </g>
 </svg>
