@@ -1,20 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none" stroke-linecap="round" stroke-linejoin="round">
   <!-- Every argument carries a market: the card above, its diverging rating gauge beneath,
-       "underrated up / overrated down" correcting it. -->
+       "underrated + / overrated −" correcting it. -->
   <rect x="28" y="14" width="40" height="26" rx="4.5" stroke="#22301f" stroke-width="1.5" />
   <g stroke="#7a7568" stroke-width="1.25">
     <path d="M35 24 H61" />
     <path d="M35 30 H52" />
   </g>
-  <rect x="14" y="58" width="68" height="9" rx="4.5" stroke="#7a7568" stroke-width="1.25" />
+  <rect x="19" y="58" width="58" height="9" rx="4.5" stroke="#7a7568" stroke-width="1.25" />
   <!-- The fill diverges green from the neutral centre rightward, as the app's gauge paints a
        backed argument (flat against the centre, no gap; the tick rides over it like the app's).
-       Underrated corrects up in green, overrated down in rust. -->
+       Underrated reads plus in green (right), overrated minus in rust (left). -->
   <path d="M48 60.75 H64.75 A1.75 1.75 0 0 1 64.75 64.25 H48 Z" fill="#31703f" />
   <path d="M48 53 V72" stroke="#22301f" stroke-width="1.5" />
-  <!-- Rounded equilateral triangle heads, corners softened like the mark's bars and the check. -->
-  <path d="M74 54.5 V45.5" stroke="#31703f" stroke-width="1.75" />
-  <path d="M 75.20 40.08 L 77.30 43.71 Q 78.50 45.79 76.10 45.79 L 71.90 45.79 Q 69.50 45.79 70.70 43.71 L 72.80 40.08 Q 74.00 38.00 75.20 40.08 Z" fill="#31703f" />
-  <path d="M22 69.5 V78.5" stroke="#a5432c" stroke-width="1.75" />
-  <path d="M 20.80 83.42 L 18.70 79.79 Q 17.50 77.71 19.90 77.71 L 24.10 77.71 Q 26.50 77.71 25.30 79.79 L 23.20 83.42 Q 22.00 85.50 20.80 83.42 Z" fill="#a5432c" />
+  <!-- Rust minus (overrated, left) and green plus (underrated, right) flank the gauge on its centre
+       line — round caps and symbol weight per the iconography rule. -->
+  <path d="M5 62.5 H14" stroke="#a5432c" stroke-width="1.75" />
+  <path d="M82 62.5 H91 M86.5 58 V67" stroke="#31703f" stroke-width="1.75" />
 </svg>
