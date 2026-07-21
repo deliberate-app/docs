@@ -23,6 +23,6 @@ serve:
 clear:
     bun run clear
 
-# Deploy to GitHub Pages (as ArborVote via SSH)
+# Deploy to GitHub Pages (as deliberate-app via SSH)
 deploy:
     bun run github-deploy
