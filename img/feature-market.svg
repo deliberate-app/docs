@@ -12,12 +12,9 @@
        Underrated corrects up in green, overrated down in rust. -->
   <path d="M48 60.75 H64.75 A1.75 1.75 0 0 1 64.75 64.25 H48 Z" fill="#31703f" />
   <path d="M48 53 V72" stroke="#22301f" stroke-width="1.5" />
-  <g stroke="#31703f">
-    <path d="M74 54 V46" stroke-width="1.75" />
-    <path d="M74 38.5 L78 46 L70 46 Z" fill="#31703f" stroke-width="1.5" />
-  </g>
-  <g stroke="#a5432c">
-    <path d="M22 70 V78" stroke-width="1.75" />
-    <path d="M22 85.5 L18 78 L26 78 Z" fill="#a5432c" stroke-width="1.5" />
-  </g>
+  <!-- Rounded equilateral triangle heads, corners softened like the mark's bars and the check. -->
+  <path d="M74 54.5 V45.5" stroke="#31703f" stroke-width="1.75" />
+  <path d="M 75.20 40.08 L 77.30 43.71 Q 78.50 45.79 76.10 45.79 L 71.90 45.79 Q 69.50 45.79 70.70 43.71 L 72.80 40.08 Q 74.00 38.00 75.20 40.08 Z" fill="#31703f" />
+  <path d="M22 69.5 V78.5" stroke="#a5432c" stroke-width="1.75" />
+  <path d="M 20.80 83.42 L 18.70 79.79 Q 17.50 77.71 19.90 77.71 L 24.10 77.71 Q 26.50 77.71 25.30 79.79 L 23.20 83.42 Q 22.00 85.50 20.80 83.42 Z" fill="#a5432c" />
 </svg>

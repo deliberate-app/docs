@@ -7,7 +7,7 @@
     <path d="M72 72 L56 45" />
   </g>
   <rect x="29" y="12" width="38" height="30" rx="5.5" stroke="#22301f" stroke-width="1.5" />
-  <path d="M38 27.5 L45 34.5 L58 20" stroke="#31703f" stroke-width="2.5" />
+  <path d="M37 26 L44 33 L60 17" stroke="#31703f" stroke-width="4" />
   <rect x="14" y="72" width="20" height="13" rx="3.5" stroke="#31703f" stroke-width="1.5" />
   <rect x="38" y="72" width="20" height="13" rx="3.5" stroke="#22301f" stroke-width="1.25" />
   <rect x="62" y="72" width="20" height="13" rx="3.5" stroke="#a5432c" stroke-width="1.5" />
