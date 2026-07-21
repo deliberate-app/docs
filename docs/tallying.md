@@ -4,7 +4,7 @@ title: Tallying & Outcome
 sidebar_label: Tallying & Outcome
 ---
 
-After the [Rating phase](rating) has ended, anyone can trigger the tally. It aggregates the final state of all [argument markets](argument-markets) into a single decision on the thesis, and it is the one transaction that finishes a debate.
+After the [Rating phase](rating) has ended, anyone can trigger the tally. It aggregates the final state of all [rating markets](rating-markets) into a single decision on the thesis, and it is the one transaction that finishes a debate.
 
 ## From the leaves to the thesis
 
@@ -22,7 +22,7 @@ built from three ingredients:
 
 ## The outcome
 
-Impacts accumulate upward until the thesis has absorbed the impact of the entire tree. The debate **confirms** the thesis if that accumulated impact is positive, and **objects** otherwise. Once finished, shares [redeem](argument-markets), authors claim their fees, and [bounty](bounty) claims open.
+Impacts accumulate upward until the thesis has absorbed the impact of the entire tree. The debate **confirms** the thesis if that accumulated impact is positive, and **objects** otherwise. Once finished, shares [redeem](rating-markets), authors claim their fees, and [bounty](bounty) claims open.
 
 ## A signal, not an oracle
 

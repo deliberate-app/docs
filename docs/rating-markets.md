@@ -1,10 +1,10 @@
 ---
-slug: argument-markets
-title: Argument Markets
-sidebar_label: Argument Markets
+slug: rating-markets
+title: Rating Markets
+sidebar_label: Rating Markets
 ---
 
-Every argument carries its own **argument market** — a constant-product pair of the argument's *pro* and *con* reserves. The market is the mechanism behind [rating](rating), the debate's incentives, and its moderation. An argument's **approval** is its pro-share price, derived from the reserve balance.
+Every argument carries its own **rating market** — a constant-product pair of the argument's *pro* and *con* reserves. The market is the mechanism behind [rating](rating), the debate's incentives, and its moderation. An argument's **approval** is its pro-share price, derived from the reserve balance.
 
 ## Seeding
 

@@ -11,7 +11,7 @@ module.exports = {
       'tallying'
     ],
     'Mechanism': [
-      'argument-markets',
+      'rating-markets',
       'tokens',
       'bounty'
     ],

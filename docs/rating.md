@@ -6,7 +6,7 @@ sidebar_label: Rating Phase
 
 After the [Editing phase](editing) has ended, the argument tree is frozen and the Rating phase begins.
 
-Participants now rate arguments by **staking [vote tokens](tokens) on [argument markets](argument-markets)**: staking on an argument's *pro* side says the argument is **underrated**, staking on its *con* side says it is **overrated**. A stake is a correction of the current rating, not a statement of agreement — you profit if the rating corrects your way once the debate ends.
+Participants now rate arguments by **staking [vote tokens](tokens) on [rating markets](rating-markets)**: staking on an argument's *pro* side says the argument is **underrated**, staking on its *con* side says it is **overrated**. A stake is a correction of the current rating, not a statement of agreement — you profit if the rating corrects your way once the debate ends.
 
 Rating through markets — rather than by simply counting votes — has two effects:
 

@@ -12,7 +12,7 @@ Any participant can add an argument below a **final** parent — the thesis itse
 
 - **supports (pro) or attacks (con) its parent** — this polarity determines the sign of its influence at [tallying](tallying),
 - carries its **content** (the argument text lives off-chain; the tree stores a reference to it) — evidence and sources belong inside this content; there is no separate "fact" node type,
-- stakes an author-chosen **deposit** in [vote tokens](tokens) (at least the minimum), which seeds the argument's [market](argument-markets) at the author's chosen initial approval and sets its starting weight.
+- stakes an author-chosen **deposit** in [vote tokens](tokens) (at least the minimum), which seeds the argument's [market](rating-markets) at the author's chosen initial approval and sets its starting weight.
 
 ## Locking window and finality
 

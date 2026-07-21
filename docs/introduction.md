@@ -15,8 +15,8 @@ However, a centralized platform cannot be used as a governance tool because it l
 
 - **Argument trees.** A debate is a tree of pro and con arguments beneath a thesis — the statement being decided.
 - **Sybil resistance.** Only personhood-verified accounts can join a debate — the join gate is a pluggable identity registry (Proof of Humanity is one provider) — and every participant receives the same budget of [vote tokens](tokens).
-- **Argument markets.** Participants rate arguments by staking vote tokens on each argument's pro or con side, so an argument's rating reflects the crowd's priced-in judgement rather than a raw show of hands — and mispriced arguments are profitable to correct.
+- **Rating markets.** Participants rate arguments by staking vote tokens on each argument's pro or con side, so an argument's rating reflects the crowd's priced-in judgement rather than a raw show of hands — and mispriced arguments are profitable to correct.
 - **On-chain tallying.** Anyone can trigger the tally, which aggregates argument impact from the leaves up to the thesis and yields the debate's [outcome](tallying) — transparent and verifiable by everyone.
 - **Bounties.** The creator can attach an ERC-20 [bounty](bounty) that pays the debate's net winners — the participants who ended with more vote tokens than they started with.
 
-A debate passes through the [phases](phases) **Editing**, where the tree is built, and **Rating**, where the argument markets operate; the tally then finishes the debate and fixes its outcome.
+A debate passes through the [phases](phases) **Editing**, where the tree is built, and **Rating**, where the rating markets operate; the tally then finishes the debate and fixes its outcome.

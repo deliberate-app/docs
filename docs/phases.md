@@ -13,7 +13,7 @@ Every debate runs on its own schedule, chosen by the creator at creation through
 | Phase | What happens |
 |---|---|
 | **Editing** | Participants build the argument tree beneath the thesis; drafts lock in one locking window after their last edit. |
-| **Rating** | Participants stake vote tokens on [argument markets](argument-markets). |
+| **Rating** | Participants stake vote tokens on [rating markets](rating-markets). |
 | **Tallying** | The rating window has closed; anyone can trigger the tally. |
 | **Finished** | The tally has run: the [outcome](tallying) is fixed, shares redeem, and [bounty](bounty) claims open. |
 

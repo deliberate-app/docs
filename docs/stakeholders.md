@@ -15,7 +15,7 @@ The **creator** opens the debate: they write the thesis — the statement being 
 **Participants** are personhood-verified accounts (via the deployment's identity registry) that have joined the debate. Every participant receives the same budget of [vote tokens](tokens) and can do everything the debate offers:
 
 - add, revise, and move their own draft arguments during the [Editing phase](editing),
-- stake on [argument markets](argument-markets) during the [Rating phase](rating),
+- stake on [rating markets](rating-markets) during the [Rating phase](rating),
 - redeem their shares and claim their authored arguments' fees after the debate ends, and
 - claim their [bounty](bounty) share if they ended a net winner.
 

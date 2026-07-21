@@ -45,10 +45,11 @@ const config = {
       '@docusaurus/plugin-client-redirects',
       {
         redirects: [
-          {from: '/docs/ratingmarkets', to: '/docs/argument-markets'},
-          {from: '/docs/incentives', to: '/docs/argument-markets'},
-          {from: '/docs/curation', to: '/docs/argument-markets'},
-          {from: '/docs/disputes', to: '/docs/argument-markets'},
+          {from: '/docs/ratingmarkets', to: '/docs/rating-markets'},
+          {from: '/docs/incentives', to: '/docs/rating-markets'},
+          {from: '/docs/curation', to: '/docs/rating-markets'},
+          {from: '/docs/disputes', to: '/docs/rating-markets'},
+          {from: '/docs/argument-markets', to: '/docs/rating-markets'},
           {from: '/docs/payout', to: '/docs/bounty'},
           {from: '/docs/layer2', to: '/docs/roadmap'},
         ],
@@ -129,8 +130,8 @@ const config = {
                 to: 'docs/phases/',
               },
               {
-                label: 'Argument Markets',
-                to: 'docs/argument-markets/',
+                label: 'Rating Markets',
+                to: 'docs/rating-markets/',
               },
             ],
           },
