@@ -8,21 +8,23 @@ After the [Rating phase](rating) has ended, anyone can trigger the tally. It agg
 
 ## From the leaves to the thesis
 
-Tallying starts at the leaves of the tree and moves upward; a parent can only be tallied once all of its children have been. Each argument $j$ contributes an **impact** to its parent:
+Tallying starts at the leaves of the tree and moves upward; a parent can only be tallied once all of its children have been. Each argument $j$ carries a **rating** that blends its own market with its sub-debate, weighted by the stake behind each:
 
 $$
-I_{j} = \sigma_j \, w_j \left( \tfrac{1}{2}\, a_j + \tfrac{1}{2} \sum_{k \in \text{children}(j)} I_k \right)
+B_j = \frac{v_j \, a_j \;+\; V_j \, D_j}{v_j + V_j}
+\qquad
+D_j = \frac{\sum_{k \in \text{children}(j)} \sigma_k \, B_k \, W_k}{\sum_{k \in \text{children}(j)} W_k}
 $$
 
 built from three ingredients:
 
-- **Own approval $a_j$** — the argument's standing in its own market: the pro-share price derived from the final balance of its pro and con reserves.
-- **Children's impact** — the already-tallied impacts of its child arguments. An argument's own approval and its subtree's judgement are mixed in equal parts.
-- **Weight and sign** — the result is scaled by $w_j$, the argument's share of the vote tokens staked across it and its siblings, and negated by $\sigma_j = -1$ if the argument attacks (con) rather than supports (pro) its parent.
+- **Own approval $a_j$** — the argument's standing in its own market: the pro-share price derived from the final balance of its pro and con reserves. It is weighted by $v_j$, the vote tokens staked on that market.
+- **The sub-debate's correction $D_j$** — the already-tallied ratings of the child arguments, each signed by its polarity ($\sigma_k = -1$ for an attacking child) and weighted by $W_k = v_k + V_k$, its **whole subtree's stake**. It is weighted by $V_j = \sum_k W_k$, the stake of everything beneath.
+- **Stake decides the mix** — a childless argument keeps its full own approval; a heavily debated one is corrected in proportion to the stake that debate attracted. At its parent, an argument counts with its whole subtree's stake among its siblings — one token, one voice, at every level of the tree.
 
 ## The outcome
 
-Impacts accumulate upward until the thesis has absorbed the impact of the entire tree. The debate **confirms** the thesis if that accumulated impact is positive, and **objects** otherwise. Once finished, shares [redeem](rating-markets), authors claim their fees, and [bounty](bounty) claims open.
+Ratings fold upward until the thesis — which has no market of its own — has absorbed the stake-weighted judgement of the entire tree. The debate **confirms** the thesis if that aggregate is positive, and **objects** otherwise. Once finished, shares [redeem](rating-markets), authors claim their fees, and [bounty](bounty) claims open.
 
 ## A signal, not an oracle
 
